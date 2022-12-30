@@ -1,0 +1,100 @@
+.hero-banner-content {
+  position: relative;
+  top: 570px;
+  z-index: 9;
+}
+.banner-slider .BackgroundVideo {
+  margin-top: -500px;
+}
+.banner-slider .video_wrapper:after{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44));
+}
+.hero-banner-content h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 19px 0px;
+}
+form.hero_form input {
+  height: 56px;
+  padding: 0px 20px;
+  box-shadow: none;
+  border: 0;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.38) 0%, rgb(0 0 0 / 27%) 100%);
+  color: #fff;
+  width: 100%;
+}
+
+form.hero_form input::-webkit-input-placeholder { /* Edge */
+  color: #fff;
+  font-family:$font_secondary !important;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+}
+
+form.hero_form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+  font-family:$font_secondary !important;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+}
+
+form.hero_form input::placeholder {
+  color: #fff;
+  font-family:$font_secondary !important;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+}
+.hero_inner-content {
+  width: 370px;
+  text-align: center;
+}
+.btn-banner {
+  border: 2px solid #FFFFFF;
+  width: 370px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.btn-banner {
+  margin: 20px 0px;
+}
+.banner-content-footer p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+}
+.banner-content-footer p a {
+  text-decoration: underline;
+}
+
+.hero_inner-content img{
+  margin: 0 auto;
+}
+
+.banner-slider .slick-dots li button:before{
+  font-size: 13px;
+}
+
+.banner-slider .slick-dots button:before{
+  display:none;
+}
+.banner-slider ul.slick-dots {
+  position: absolute;
+  bottom: 20px;
+}
+.banner-slider ul.slick-dots li {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  border: 1px solid hsl(0deg 0% 100% / 55%);
+}
+.banner-slider li.slick-active {
+  background: #2C2276 !important;
+  border-color: #fff !important;
+}

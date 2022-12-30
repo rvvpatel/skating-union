@@ -1,0 +1,316 @@
+@media all and (max-width: 767px) {
+    .nav-icon {
+        display: none;
+    }
+
+    .top-header-menu {
+        display: none !important;
+    }
+
+    .mobile-top-menu .top-header-menu {
+        display: block !important;
+    }
+
+    .top-header {
+        padding: 0;
+    }
+
+    .mobile-top-menu .top-header-menu ul {
+        margin-left: 20px;
+    }
+
+    .news-block .inner-flex .bg-blue-dropdown .dropdown button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .heading_v2 h4 {
+        font-size: 20px;
+    }
+
+    .heading_shape {
+        left: 0;
+    }
+
+    .edior-block,
+    .event_time_block,
+    .map_block {
+        margin-top: 30px;
+    }
+
+    .news_block-card {
+        margin-top: 15px;
+    }
+
+    .mt-30,
+    a.btn-event.more {
+        margin-top: 0;
+    }
+
+    .upcoming-right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-event {
+        width: 100%;
+        margin: 0px 3px;
+    }
+
+    .upcoming-right {
+        margin-top: 20px;
+    }
+
+    .event_block {
+        width: 100%;
+    }
+
+    .slide_ab {
+        width: 100%;
+        position: unset;
+    }
+
+    .slide_ab .slick-track {
+        height: 70px;
+    }
+
+    .womens-slide .slick-list {
+        overflow: hidden;
+    }
+
+    .word_standing .tab-content {
+        flex: 0 0 auto;
+        width: 85.666667%;
+    }
+
+    .section-category-slide .word_standing ul.world-tab {
+        width: 30%;
+    }
+
+    .word_standing ul.world-tab button {
+        font-size: 14px;
+    }
+
+    .word_standing .nav-tabs .nav-link.active {
+        font-size: 20px;
+    }
+
+    .section-category-slide .word_standing .nav-tabs .nav-link {
+        padding-bottom: 17px;
+    }
+
+    .section-category-slide .word_standing .nav-tabs .nav-link::after {
+        top: 14px;
+    }
+
+    .wom-block img {
+        height: 250px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .heading_v2 .inner-flex,
+    .section-events .section-flex,
+    .section-event-heading-right,
+    .social-block .section-flex,
+    .add-block-flex,
+    .world-standing .section-flex,
+    .word_standing,
+    .upcoming-event,
+    .footer-contact-flex,
+    .footer-contact-footer-flex,
+    .footer-bottom-flex {
+        display: block !important;
+    }
+
+    .social_icon {
+        padding-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .BackgroundVideo.social video {
+        width: 100% !important;
+    }
+
+    img.bg-left,
+    .bg-right {
+        display: none;
+    }
+
+    .btn-white {
+        width: 100%;
+        height: 45px;
+        font-size: 14px;
+        position: unset;
+    }
+
+    .bg-add .heading_v2 h4 {
+        padding-left: 0;
+    }
+
+    .bg-add {
+        background-image: url(../assets/images/add_block.png);
+    }
+
+    .add-block-flex {
+        margin-bottom: 30px
+    }
+
+    .bg-blue-dropdown .dropdown button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    // .word_standing ul.world-tab, .word_standing .tab-content{
+    //     flex: unset;
+    //     width: 100%;
+    // }
+
+    .word_standing {
+        margin-top: 2rem;
+    }
+
+    .standing-table_block thead th {
+        padding: 0px 5px;
+        height: auto;
+        font-size: 11px;
+    }
+
+    .standing-table_block tbody tr td {
+        font-size: 11px;
+    }
+
+    .section-athletes .word_standing {
+        display: flex !important;
+    }
+
+    .BackgroundVideo.social video {
+        height: 126px !important;
+    }
+
+    .world-standing.is-mobile ul {
+        width: 100%;
+        // display: flex !important;
+        display: none !important;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+
+    .world-standing.is-mobile .nav-tabs .nav-link.active {
+        font-size: 18px;
+    }
+
+    .top-three-block {
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .top-ranking-img-block {
+        position: unset;
+    }
+
+    .world-standing.is-mobile .tab-content,
+    .footer-bottom-link-group {
+        width: 100% !important;
+    }
+
+    .press_block {
+        margin-top: 80px;
+    }
+
+    .top-rank .top-ranking-img-block {
+        top: -44px;
+    }
+
+    // .BackgroundVideo video{
+    //     height: 300px;
+    // }
+    .btn-group {
+        display: block;
+    }
+
+    .video-btn-link {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .speed-block {
+        border-right: none;
+    }
+
+    .footer-contact-top {
+        padding: 30px 0px 20px;
+        text-align: center;
+    }
+
+    .footer-contact-block {
+        margin: 20px 0px;
+        justify-content: center;
+    }
+
+    .social_link {
+        margin-right: 10px;
+    }
+
+    .footer-bottom-link-block {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-copyright P {
+        padding: 15px 20px;
+    }
+
+    .footer-bottom-link-group a:after {
+        top: 5px;
+        height: 15px;
+    }
+
+    .fix-social-icons {
+        right: 0;
+    }
+
+    .speed-social {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .section-athletes:after {
+        display: none;
+    }
+
+    .womens-slide {
+        height: 338px;
+    }
+
+    .section-events,
+    .editor-block {
+        padding: 40px 0px;
+    }
+
+    .banner-slider {
+        position: relative;
+    }
+
+    .social-inner-block {
+        .row {
+            display: grid;
+            padding: 3rem;
+        }
+    }
+
+    .add-block-flex.right {
+        .heading_v2 {
+            left: 0 !important;
+        }
+    }
+
+    .heading_v2 {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width: 1000px) {}

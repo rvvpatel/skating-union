@@ -1,0 +1,124 @@
+img.event_logo {
+    width: 151px;
+    height: 89px;
+    object-fit: contain;
+    margin-right: 9px;
+}
+
+.event_block {
+    width: 403px;
+    padding: 0px 23px;
+    background: #00B4E5;
+    height: 89px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.event_block_content span {
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    font-family: $font_secondary;
+}
+
+.event_block_content h4 {
+    font-family: $font_primary;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.section-event-heading-right {
+    align-items: flex-end;
+}
+
+.upcoming-event {
+    background: #fff;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.upcoming-left h5 {
+    color: #00B4E5;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.upcoming-left img {
+    margin-right: 13px;
+}
+
+.upcoming-left span {
+    font-weight: 500;
+    font-size: 12px;
+    color: #2C2276;
+    letter-spacing: 0.02em;
+    font-family: $font_secondary;
+}
+
+.upcoming-event-map_time {
+    margin-top: 9px;
+}
+
+.upcoming-left svg {
+    margin-right: 13px;
+}
+
+.upcoming-event-map_time-block.time {
+    margin-left: 30px;
+}
+
+.upcoming-event .flex-heading {
+    margin-bottom: 10px;
+}
+
+.btn-event {
+    width: 140px;
+    display: flex;
+    height: 38px;
+    border: 0.7px solid #2C2276;
+
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+a.btn-event.more {
+    color: #2C2276;
+    margin-top: 17px;
+}
+
+a.btn-event.buy {
+    background: #2C2276;
+    color: #fff;
+}
+
+.upcoming-event .flex-heading h5 {
+    width: 190px;
+}
+
+.section-small-heading {
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.upcoming-event-list {
+    margin-top: 40px;
+}
+
+.map_block,
+.map_block img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    @media only screen and (max-width: 600px) {
+        height: unset;
+    }
+}
+
+.upcoming-event:first-child {
+    margin-top: 0;
+}

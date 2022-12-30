@@ -1,0 +1,27 @@
+// If you want to override variables do it here
+@import url('bootstrap/dist/css/bootstrap.min.css');
+@import "variables";
+@import "animation";
+@import "navbar";
+@import "button";
+
+@import "./fonts/fonts";
+
+@import "custom";
+@import "footer";
+@import "bgvideo";
+@import "athletes";
+@import "event";
+
+@import "herobanner";
+@import "news";
+@import "editor";
+
+
+@import "responsive";
+
+
+
+
+$enable-ltr: true;
+$enable-rtl: true;

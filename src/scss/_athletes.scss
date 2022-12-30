@@ -1,0 +1,152 @@
+.slide_ab {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.country-block img {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    top: 12px;
+}
+.slide_ab .slick-slide.slick-active.slick-center.slick-current .country-block img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 0;
+}
+
+.slide_ab:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: #2c2276;
+    width: 50px;
+    height: 100%;
+    top: 0;
+}
+.slide_ab:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    background: #2c2276;
+    width: 50px;
+    height: 29%;
+    top: 0;
+    z-index: 99;
+}
+
+.slide_ab .slick-prev:before{
+    background-image: url(../assets/images/country_left.svg);
+    color: transparent;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.slide_ab .slick-next:before{
+    background-image: url(../assets/images/country_right.svg);
+    color: transparent;
+    opacity: 1;
+    background-repeat: no-repeat;  
+    background-position: top;
+}
+.slide_ab  button.slick-arrow.slick-prev {
+    position: absolute;
+    left: 10px;
+    z-index: 999;
+}
+.slide_ab  button.slick-arrow.slick-next {
+    position: absolute;
+    right: 15px;
+    z-index: 999;
+}
+
+.slide_ab  button.slick-arrow.slick-prev, .slide_ab  button.slick-arrow.slick-next{
+    top: 45px;
+}
+.country-block-name{
+    font-size: 15px;
+    font-weight:700;
+    opacity: 0;
+    margin-top: 16px;
+    transition: all 0.5s ease 0s;
+}
+
+.slide_ab .slick-slide.slick-active.slick-center.slick-current .country-block-name{
+    opacity: 1;
+}
+.wom-block img {
+    width: 100%;
+    height: 386px;
+    object-fit: cover;
+}
+.wom-block h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+.womens-slide .slick-slide {
+    margin-right:10px;
+    margin-left:0px;
+}
+.womens-slide .slick-list {
+    overflow: unset;
+}.section-category-slide {
+    overflow: hidden;
+}
+.section-athletes:after {
+    content: "";
+    position: absolute;
+    width: 28%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #2c2276;
+}
+.section-category-slide .word_standing ul.world-tab{
+    position: relative;
+    z-index: 9999999;
+    flex: 0 0 auto;
+    width: 22%;
+    background: #2c2276;
+}
+.section-athletes .heading_v2 {
+    z-index: 999;
+}
+.section-athletes .slick-track{
+    overflow: hidden !important;
+    height: 500px;
+}
+.section-category-slide .word_standing {
+    margin-top: 70px;
+}
+
+.section-category-slide .word_standing .nav-tabs .nav-link{
+    position:relative;
+    text-transform: uppercase;
+    
+}
+.section-category-slide .word_standing .nav-tabs .nav-link::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 25px;
+    right: -28px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url(../assets/images/tab-arrow-title.svg);
+    opacity:0;
+    transition: all 0.5s ease 0s;
+}
+
+.section-category-slide .word_standing .nav-tabs .nav-link.active::after{
+    opacity:1;
+}
+
+

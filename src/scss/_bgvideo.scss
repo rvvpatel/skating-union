@@ -1,0 +1,30 @@
+.BackgroundVideo video {
+    height: 620px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.video_wrapper_content {
+    position: absolute;
+    bottom: 56px;
+    text-align: center;
+    width: 100%;
+    z-index: 9;
+}
+.video_wrapper_content h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 34px;
+}
+.btn-group {
+    margin-top: 45px;
+}
+.video_wrapper:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44));
+}

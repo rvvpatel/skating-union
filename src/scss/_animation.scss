@@ -1,0 +1,44 @@
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+  @keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 #564e91;
+    }
+    100% {
+      box-shadow: 0 0 0 17px #fbb32f01;
+    }
+  }
+  .bg-moving, .home_full_bg {
+
+    -webkit-animation: slide 20s linear infinite;
+    animation: slide 20s linear infinite;
+}
+@keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -400px;
+    }
+}
+
+
+@keyframes breath {
+  from { 
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05)
+  }
+} 

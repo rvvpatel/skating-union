@@ -1,0 +1,102 @@
+.social_link, .footer-contact-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+.footer-contact-icon{
+    margin-left: 0px; 
+    margin-right: 9px;
+}
+.footer-contact-block {
+    margin: 0px 17px;
+}
+.footer_logo img {
+    width: 327px;
+}
+.footer-contact-footer-flex {
+    justify-content: center;
+    margin-top: 30px;
+}
+footer{
+    background-image: url(../assets/images/footer-top.png);
+    background-size: cover;
+}
+.footer-contact-top {
+    padding: 60px 0px 50px;
+    border-bottom: 0.3px solid #ffffff5e;
+}
+.footer_add, .social_icon {
+    padding-top: 25px;
+}
+.footer-bottom-flex a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+.footer-bottom-flex h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-bottom {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.footer_add p {
+    font-weight: 700;
+}
+.footer-contact-block a {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700 !important;
+}
+.bottom-arow {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 19px;
+}
+.footer-bottom-link-group a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    padding: 0px 20px 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.footer-bottom-link-group a:after {
+    content: "";
+    background: #fff;
+    right: 0;
+    position: absolute;
+    top: 0;
+    height: 18px;
+    border-right: 1px solid #fff;
+}
+.footer-bottom-link-group {
+    width: 722px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 28px;
+}
+
+.footer-bottom-link-group a:last-child:after, .footer-bottom-link-group a:nth-child(4):after{
+    display:none;
+}
+.footer-copyright{
+    background-color: $bg-primary;
+    padding: 15px 0px;
+}
+.speed-block a:first-child {
+    margin: 0;
+}

@@ -1,0 +1,84 @@
+.edior-block.latest video {
+    height: 380px;
+}
+.edior-block .video_wrapper:after{
+    background: linear-gradient(180deg, rgba(0, 33, 99, 0) 40.69%, #002163 112.7%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    height: 100%;
+    top: 0px;
+
+}
+.video_icon_link, .editor_icon {
+    position: absolute;
+    bottom: 35px;
+    z-index: 99;
+    left: 35px;
+    text-transform: uppercase;
+}
+.video_link img {
+    margin-right: 10px;
+}
+.editor-content {
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    z-index: 99;
+}
+.editor-content h4 {
+    color: #2C2276;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+.editor-flex-content span {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500;
+    font-size: 14px;
+    color: #00B4E5;
+    letter-spacing: 0.02em;
+}
+.editor-flex-content span.border-line {
+    margin: 0px 11px;
+}
+.edior-block.least video {
+    height: 150px;
+    object-fit: contain;
+}
+a.edior-block.least h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.edior-block .editor-content {
+    padding: 14px;
+}
+.edior-block.least .video_icon_link, .editor_icon {
+    left: 17px;
+    bottom: 17px;
+}
+.edior-block.least .editor-flex-content span{
+    font-size:10px;
+}
+a.edior-block.least {
+    display: block;
+}
+img.post-img {
+    height: 150px;
+    width: 100%;
+}
+.edior-block h4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a.edior-block.least .video_wrapper{
+    position: relative;
+}
+a.edior-block.least .video_wrapper:after {
+    top: 0;
+    background: linear-gradient(180deg, rgba(0, 33, 99, 0) 40.69%, #002163 112.7%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+.mt-30{
+    margin-top:30px;
+}
